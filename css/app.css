@@ -9,7 +9,7 @@ body {
 }
 
 .font-esthetic {
-    font-family: 'Sacramento', cursive !important;
+    font-family: 'Bonheur Royale', cursive !important;
     color: #ffffff !important;
 }
 
@@ -19,8 +19,8 @@ body {
 }
 
 .img-crop {
-    width: 14rem;
-    height: 14rem;
+    width: 20rem;
+    height: 20rem;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -45,8 +45,42 @@ body {
     inset: 0 !important;
     width: 100%;
     height: 100%;
-    background-color: #111111;
+    background-color: #A9BA9D;
     z-index: 1056 !important;
+}
+
+.welcome-page {
+    position: fixed;
+    inset: 0 !important;
+    background-color: rgba(48, 48, 48, 0.496);
+    width: 100%;
+    height: 100%;
+    z-index: 1056 !important;
+}
+
+.welcome-page-background{
+    position: fixed;
+    inset: 0 !important;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/welcome-bg-2.png");
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover,cover;
+    z-index: 1056 !important;
+}
+
+.welcome-page-cover{
+    position: fixed;
+    inset: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    background-color: #9EA49D !important;
 }
 
 .card-body {
@@ -114,13 +148,13 @@ body {
 }
 
 .dark-section {
-    background-color: #111111 !important;
+    background-color: #A9BA9D !important;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
 }
 
 footer {
-    background-color: #111111 !important;
+    background-color: #A9BA9D !important;
     margin-top: -0.5rem;
     padding-bottom: 5rem;
 }
