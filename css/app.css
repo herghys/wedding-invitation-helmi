@@ -8,8 +8,13 @@ body {
     padding: 0 !important;
 }
 
-.font-esthetic {
+.font-esthetic-landing {
     font-family: 'Bonheur Royale', cursive !important;
+    color: #ffffff !important;
+}
+
+.font-esthetic {
+    font-family: 'Sacramento', cursive !important;
     color: #ffffff !important;
 }
 
@@ -19,8 +24,8 @@ body {
 }
 
 .img-crop {
-    width: 20rem;
-    height: 20rem;
+    width: 12rem;
+    height: 12rem;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -157,4 +162,22 @@ footer {
     background-color: #A9BA9D !important;
     margin-top: -0.5rem;
     padding-bottom: 5rem;
+}
+
+.no-hover{
+    pointer-events: none;
+}
+
+.rounded-corner{
+    background-color: #ddd;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 200px;
+
+
+    /* Adding the rounded corners */
+    
 }
