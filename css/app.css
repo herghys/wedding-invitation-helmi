@@ -184,39 +184,27 @@ footer {
 }
 
 .slide-container{
-  max-width: 1120px;
   width: 100%;
-  padding: 40px 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
-.slide-container-1{
-  max-width: 1120px;
-  width: 100%;
-  padding: 40px 0;
-}
-.slide-container-2{
-  max-width: 1120px;
-  width: 100%;
-  padding: 40px 0;
-}
+
 .slide-content
 {
-  margin: 0 20px;
   overflow: hidden;
   border-radius: 25px;
 }
-.slide-content-1{
-    margin: 0 20px;
-    overflow: hidden;
-    border-radius: 25px;
-  }
-.slide-content-2{
-  margin: 0 20px;
-  overflow: hidden;
-  border-radius: 25px;
-}
+
 .card{
   border-radius: 25px;
 }
+
+.card-content{
+  min-height: 15vh;
+  text-align: center;
+  border-radius: 25px;
+}
+
 .image-content,
 .image-content{
   position: relative;
