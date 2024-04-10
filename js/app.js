@@ -33,7 +33,7 @@ const storage = (table) => {
 
 const request = (method, path) => {
 
-    let url = document.querySelector('body').getAttribute('data-url');
+    let url = 'https://helmi.arif.app';
     let req = {
         method: method.toUpperCase(),
         headers: {
@@ -383,15 +383,17 @@ const pagination = (() => {
     };
 })();
 
+
 const session = (() => {
 
     let body = document.querySelector('body');
-
+    let un = 'user@example.com';
+    let paw = '12345678'
     const login = async () => {
         await request('POST', '/api/session')
             .body({
-                email: body.getAttribute('data-email'),
-                password: body.getAttribute('data-password')
+                email: un,
+                password: paw
             })
             .then((res) => {
                 if (res.code == 200) {

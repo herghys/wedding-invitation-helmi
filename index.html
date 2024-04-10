@@ -74,7 +74,7 @@
     <script src="./js/app.js" defer></script>
 </head>
 
-<body data-email="user@example.com" data-password="12345678" data-url="https://helmi.arif.app" style="overflow-y: hidden;">
+<body data-url="https://helmi.arif.app" style="overflow-y: hidden;">
 
     <!-- Navbar Bottom -->
     <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-menus">
@@ -464,20 +464,6 @@
                                         <button class="btn btn-light btn-sm rounded-3 mb-2" data-nomer="90120176695" onclick="util.salin(this)" autofocus>Salin No.Rek</button>
                                     </div>
                                 </div>
-
-                                <div class="card swiper-slide mb-2" >
-                                    
-                                    <div class="card-content">
-                                        <img src="assets/svg/bca.svg" class="img-fluid w-50 mt-4" alt="bca">
-                                        
-                                        <p class="card-text mt-3 mb-0" style="font-size: 0.9rem;">No. Rekening 0600941551</p>
-                                        <p class="card-text" style="font-size: 0.9rem;">a.n Helmi Arghya Santosa</p>
-        
-                                        <!-- Ubah juga data-nomer sesuai dengan no rekening -->
-                                        <button class="btn btn-light btn-sm rounded-3 mb-2" data-nomer="0600941551" onclick="util.salin(this)" autofocus>Salin No.Rek</button>
-                                    </div>
-                                </div>
-
                                 <div class="card swiper-slide mb-2">
                                     
                                     <div class="card-content">
@@ -491,6 +477,20 @@
                                         <button class="btn btn-light btn-sm rounded-3 mb-2" data-nomer="123456789" onclick="util.salin(this)" autofocus>Salin Nomor</button>
                                     </div>
                                 </div>
+                                <div class="card swiper-slide mb-2" >
+                                    
+                                    <div class="card-content">
+                                        <img src="assets/svg/bca.svg" class="img-fluid w-50 mt-4" alt="bca">
+                                        
+                                        <p class="card-text mt-3 mb-0" style="font-size: 0.9rem;">No. Rekening 0600941551</p>
+                                        <p class="card-text" style="font-size: 0.9rem;">a.n Helmi Arghya Santosa</p>
+        
+                                        <!-- Ubah juga data-nomer sesuai dengan no rekening -->
+                                        <button class="btn btn-light btn-sm rounded-3 mb-2" data-nomer="0600941551" onclick="util.salin(this)" autofocus>Salin No.Rek</button>
+                                    </div>
+                                </div>
+
+                                
                             </div>
                         </div>
                         <div class="swiper-button-next swiper-navBtn"></div>
@@ -564,9 +564,11 @@
                         <button class="flex-fill btn btn-danger btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.batal()" id="batal">
                             Batal<i class="fa-solid fa-xmark ms-1"></i>
                         </button>
+                        <!--
                         <button class="flex-fill btn btn-success btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.balas()" id="balas">
                             Balas<i class="fa-solid fa-reply ms-1"></i>
                         </button>
+                        -->
                         <button class="flex-fill btn btn-warning btn-sm rounded-3 shadow m-1" style="display: none;" onclick="comment.ubah()" id="ubah">
                             Ubah<i class="fa-solid fa-pen-to-square ms-1"></i>
                         </button>
