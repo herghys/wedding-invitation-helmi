@@ -185,6 +185,16 @@ body {
     animation: love 5s ease-in-out infinite;
 }
 
+/* BASE: #9CAF88 */
+.base-color-dark{
+  color: #6b8054;
+}
+
+/* Test New
+#77806e
+#6b8054
+*/
+
 .dark-section {
     background-color: #9CAF88 !important;
     margin-top: -0.5rem;
@@ -215,6 +225,7 @@ footer {
     
 }
 
+/* Card Slider */
 .slide-container{
   width: 100%;
   padding-top: 20px;
@@ -227,6 +238,7 @@ footer {
   border-radius: 25px;
 }
 
+/* Card */
 .card{
   border-radius: 25px;
 }
@@ -256,11 +268,11 @@ footer {
 }
 /*Swiper */
 .swiper-navBtn{
-    color: #6E93f7;
+    color: #6d8d58;
     transition: color 0.3s ease;
   }
   .swiper-navBtn:hover{
-    color: #4070F4;
+    color: #475c39;
   }
   .swiper-navBtn::before,
   .swiper-navBtn::after{
@@ -277,7 +289,7 @@ footer {
     opacity: 1;
   }
   .swiper-pagination-bullet-active{
-    background-color: #4070F4;
+    background-color: #6d8d58;
   }
   
   @media screen and (max-width: 768px) {
