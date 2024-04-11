@@ -1,3 +1,36 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+
+:root{
+  color: #1b1b1b;
+}
+
+/*
+ * BASE: #212529
+ * NEW: #1f221d
+ */
+ /*
+:root,
+[data-bs-theme=dark]{
+  --bs-body-bg: #1f221d;
+} 
+*/
+
+/* Links */
+a:link{
+ color: #ffffff;
+}
+a:hover {
+  color: rgb(214, 214, 214);
+}
+a:visited{
+ color: #ffffff;
+}
+
 html {
     scroll-behavior: smooth !important;
     scrollbar-width: none !important;
@@ -14,7 +47,7 @@ body {
 }
 
 .font-esthetic {
-    font-family: 'Sacramento', cursive !important;
+    font-family: 'Bilbo Swash Caps', cursive !important;
     color: #ffffff !important;
 }
 
@@ -85,7 +118,7 @@ body {
 }
 
 .navbar{
-    background-color: #9EA49D !important;
+    background-color: #272927 !important;
 }
 
 .card-body {
